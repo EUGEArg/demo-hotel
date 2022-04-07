@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+</head>
+<body>
+    <header class="header-header">
+        <div class="logo"><img src="" alt="" />ROYAL GARDEN</div>
+        <nav class="menu-nav">
+          <ul class="list-nav">
+            <li class="menu-item"><a href="http://127.0.0.1:5500/index.html">EL HOTEL</a></li>
+            <li class="menu-item"><a href="http://127.0.0.1:5500/habitaciones.html">HABITACIONES</a></li>
+            <li class="menu-item"><a href="http://127.0.0.1:5500/galeria.html">GALERÍA</a></li>
+            <li class="menu-item"><a href="http://127.0.0.1:5500/contacto.html">CONTACTO</a></li>
+          </ul>
+        </nav>
+        <div class="reservas">
+          <button class="btn-reservas">
+            <a href="#">RESERVAR AHORA</a>
+          </button>
+        </div>
+    </header>
+<section  class="contacto-container">
+    <div class="contact-cont">
+        <div class="text-section-contact">
+            <h3 id="contacto">ROYAL GARDEN</h3>
+            <h2>CONTACTO</h2>
+        </div>
+        <img src="./assets/img/img-contacto.jpg" alt="" class="img-contacto">
+        <div class="form-container">
+            <form action="https://getform.io/f/68d4c2fd-2bdb-433a-8dfb-6951d3c42ef4" method="post">
+                <div class="form-contact">
+                    <input
+                    name="name"
+                    type="text"
+                    id="nombre"
+                    placeholder="Name and surname" 
+                    class="input-contact"     
+                    required data-tipo="nombre"    
+                    >             
+                    <label for="Nombre"></label>
+                    <span class="input-mensaje-error"></span>                            
+                </div>            
+                <div class="form-contact">
+                    <input
+                    name="email"
+                    id="email"
+                    class="input-contact"
+                    type="email"
+                    placeholder="name@dominio.com"    
+                    required data-tipo="email"       
+                    >
+                    <label for="email"></label>
+                    <span class="input-mensaje-error"></span>
+                </div>  
+                <div class="form-contact">
+                    <input
+                    type="text"
+                    name="asunto"
+                    id="asunto"
+                    placeholder="Subjet"
+                    class="input-contact"
+                    data-tipo="asunto"
+                    >
+                    <label for="asunto"></label> 
+                    <span class="input-mensaje-error"></span>
+                </div>
+                <div class="form-contact">
+                        <textarea
+                        name="mensaje"
+                        id="mensaje"
+                        cols="60"
+                        rows="7"
+                        class="input-contact"
+                        required
+                    ></textarea>
+                        <label for="mensaje"></label> 
+                        <span class="input-mensaje-error"></span>
+                    </div>     
+                    <div  id="btn-submit" class="btn-submit">
+                       <button class="enviar">ENVIAR</button> 
+                    </div>
+            </form>
+            <div class="mapa-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52989.56849919252!2d-60.600449159791054!3d-33.89356749887242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b84aad3ef60a31%3A0x481ac3277962e9c5!2sPergamino%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1647019571402!5m2!1ses!2sar"
+                  width="600"
+                  height="300"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+            </div>    
+        </div>    
+        <div class="btn-volver">
+            <button type="reset" class="volver-inicio"><a href="http://127.0.0.1:5500/index.html">VOLVER</a></button> 
+        </div>
+    </div>
+</section>        
+</body>
+</html>
+
+

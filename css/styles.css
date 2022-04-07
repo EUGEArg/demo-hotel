@@ -1,0 +1,212 @@
+html, body {
+    margin: 0;
+    background: #494A48;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    margin-top: 3em;
+    z-index: 1;
+    background: #979986;   
+}
+
+.header-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    z-index: 1;
+    background: #979986; 
+    position: fixed;
+}
+
+.hotel-container, .galeria-container, .contacto-container{
+    height: 100vh;   
+}
+
+.list-nav {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 20px;
+}
+
+.btn-reservas{
+    padding: 1.4em 2em;
+    background: #FEB990;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(222, 222, 220); 
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    color: rgb(222, 222, 220); 
+    font-size: 20px;
+}
+
+h2 {
+    color: rgb(222, 222, 220); 
+    font-size: 70px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+h3 {
+    color: rgb(222, 222, 220); 
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;  
+}
+
+.text-inicio {
+    position: absolute;
+    top: 36%;
+    left: 25%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.cont-text {
+    display: flex;
+    border:  10px solid #FEB990;
+    margin: 30px 50px;
+    padding: 60px;   
+}
+
+.img-suite-hero, .img-contacto {
+width: 100%;
+position: relative;
+}
+
+.text-section {
+    position: absolute;
+    z-index: 10;
+    top: 15vh;
+    left: 30vw;
+    text-align: center;   
+}
+
+.text-section-contact, .text-section-galeria{
+    position: absolute;
+    z-index: 10;
+    top: 20vh;
+    left: 42vw;
+    text-align: center;   
+}
+
+.galeria-habit {
+    display: flex;
+    flex-direction: column;  
+}
+
+.descrip-suite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.suite-img {
+    width: 50%;
+}
+
+.desc-habit {
+    padding: 0 40px;
+    text-align: justify;
+}
+
+.text-descrip {
+    width: 50%;
+    text-align: center;
+    padding-top: 40px;  
+     
+}
+
+.list-habit {
+    display: flex;
+    justify-content: center;
+}
+
+.i-list-habit {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: rgb(222, 222, 220);
+}
+
+.tamaño-i {
+    font-size: 30px;
+    color: rgb(222, 222, 220);
+    padding-bottom: 10px;
+}
+
+.galeria-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 50vh;
+
+}
+
+.items-galeria {
+    display: flex;
+    position: relative;
+    top: 25vh;
+    left: 17vw;
+}
+
+.img {
+    width: 350px;
+    padding: 18px;
+    border-radius: 20px;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+ 
+  }
+
+.mapa-container {
+    padding-left: 30px;
+}
+
+
+
+.conten-img {
+    position: relative;
+    display: flex;
+    margin-left: 40px;
+  }
+  
+  .vidas-img {
+   
+    font-size: 40px;
+  }
