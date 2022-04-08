@@ -82,7 +82,7 @@ h3 {
 .text-inicio {
     position: absolute;
     top: 36%;
-    left: 25%;
+    left: 18vw;
     text-align: center;
 }
 
@@ -108,16 +108,25 @@ position: relative;
     position: absolute;
     z-index: 10;
     top: 15vh;
-    left: 30vw;
+    left: 22vw;
     text-align: center;   
 }
 
-.text-section-contact, .text-section-galeria{
+.text-section-galeria{
     position: absolute;
     z-index: 10;
     top: 20vh;
-    left: 42vw;
+    left: 40vw;
     text-align: center;   
+}
+
+.text-section-contact {
+    position: absolute;
+    z-index: 10;
+    top: 20vh;
+    left: 38vw;
+    text-align: center;   
+
 }
 
 .galeria-habit {
