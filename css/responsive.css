@@ -1,0 +1,138 @@
+@media(max-width: 768px) {
+    html, body{
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin: 12px;
+    }
+  
+    h3 {
+          font-size: 24px;
+          margin: 12px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+
+
+    /* HEADER */
+   .header, .header-header  {
+    flex-direction: column;
+    height: 90vh;
+    width: 90vw;   
+    margin:0;
+    z-index: 10;
+    text-align: center;
+     display: none;   
+   }
+
+   .header.activado {
+    display: flex;
+   }
+
+   .list-nav {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+
+  /* EL HOTEL */
+  .hero {
+    width: 500px;
+    height: 300px;
+  }
+
+  .text-inicio {
+    top: 12%;  
+    bottom: 70% ;
+  }
+
+  .container {
+      display: block;
+      padding-top: 30px;
+  }
+
+  .cont-text {
+      margin: 10px ;
+      padding: 10px;
+      border: 6px solid #FEB990;
+  }
+
+  .btn-reservas{
+    margin: 10px;
+    padding: 10px 20px;
+    background: #FEB990;
+    border: none;
+    border-radius: 3px;
+}
+
+/* HABITACIONES */
+.text-section-suites {
+    position: absolute;
+    top: 22%;
+    bottom: 60%;
+}
+
+.suite-img {
+    margin-top: 10px;
+}
+
+.descrip-suite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: #FEB990 solid 1px;
+    padding: 20px;
+}
+
+.text-descrip {
+    width: 95%;
+    text-align: center;   
+    padding-top: 1px;
+}
+
+.desc-habit {
+    padding: 0 20px;
+
+}
+
+.galeria-habit {
+    position: absolute;
+    top: 36%;    
+}
+
+.list-habit {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 12px;
+}
+
+/* GALERIA */
+.text-section-galeria {
+    position: absolute;
+    top: 5%;
+    bottom: 80%;
+}
+
+.items-galeria {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    position: relative;
+    top: 24%;
+}
+
+.galeria-images {
+    flex-direction: column;
+    align-items: center;
+    top: 30%;
+}
+
+/* responsive form en form.ccs */
+}

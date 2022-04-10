@@ -13,7 +13,7 @@ html, body {
     position: fixed;
     width: 100%;
     margin-top: 30px;
-    z-index: 1;
+    z-index: 10;
     background: #979986;   
 }
 
@@ -22,13 +22,13 @@ html, body {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    z-index: 1;
+    z-index: 10;
     background: #979986; 
     position: fixed;
 }
 
 .hotel-container, .galeria-container, .contacto-container{
-    height: 100vh;   
+    height: 100vh;  
 }
 
 .list-nav {
@@ -49,33 +49,33 @@ li {
 
 a {
     text-decoration: none;
-    color: rgb(222, 222, 220); 
+    color: #ffffff; 
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bold;
 }
 
 p {
-    color: rgb(222, 222, 220); 
+    color: #ffffff; 
     font-size: 20px;
 }
 
 h2 {
-    color: rgb(222, 222, 220); 
+    color: #ffffff; 
     font-size: 70px;
     font-weight: 700;
     margin: 20px;
+    text-shadow: 2px 2px 2px #686867;
 }
 
 h3 {
-    color: rgb(222, 222, 220); 
+    color: #ffffff;  
     font-size: 30px;
     font-weight: 700;
+    text-shadow: 2px 2px 2px #686867;
 }
 
 .hero {
-    display: flex;
-    justify-content: center;
     height: 100vh;
     width: 100vw;  
 }
@@ -105,16 +105,15 @@ h3 {
 
 .img-suite-hero, .img-contacto {
     width: 100%;
+    height: 50%;
 }
 
-.text-section {
+.text-section-suites, .text-section-galeria, .text-section-contacto {
     position: absolute;
-    top: 20%;
+    top: 22%;
     left: 0;
     right: 0;
-    bottom: 0;
     margin: auto;
-    z-index: 10; 
     text-align: center;   
 }
 
@@ -174,9 +173,10 @@ h3 {
 
 .items-galeria {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: relative;
-    top: 25vh;
-    left: 17vw;
+    top: 40%; 
 }
 
 .img {
@@ -186,25 +186,4 @@ h3 {
 }
 
 
-.form-container {
-    display: flex;
-    justify-content: center;
- 
-  }
 
-.mapa-container {
-    padding-left: 30px;
-}
-
-
-
-.conten-img {
-    position: relative;
-    display: flex;
-    margin-left: 40px;
-  }
-  
-  .vidas-img {
-   
-    font-size: 40px;
-  }
