@@ -27,7 +27,7 @@ html, body {
     position: fixed;
 }
 
-.hotel-container, .galeria-container, .contacto-container{
+.hotel-container, .galeria-container {
     height: 100vh;  
 }
 
