@@ -6,8 +6,9 @@ html, body {
 }
 
 
-.header {
+.menu-nav{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     position: fixed;
@@ -17,14 +18,24 @@ html, body {
     background: #979986;   
 }
 
-.header-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    z-index: 10;
-    background: #979986; 
-    position: fixed;
+
+.btn-responsive {
+    display: none;   
+    cursor: pointer;
+    border: none;
+    margin: 0;
+    padding-left: 15px;
+    background-color: transparent;  
+
+}
+
+.btn-responsive span {
+    display: block;
+    background-color: #FEB990;
+    height: 4px;
+    width: 30px;
+    margin: 10px auto;
+    border-radius: 2px;
 }
 
 .hotel-container, .galeria-container {

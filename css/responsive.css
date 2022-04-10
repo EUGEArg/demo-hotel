@@ -19,17 +19,16 @@
 
 
     /* HEADER */
-   .header, .header-header  {
+   .menu-nav {
     flex-direction: column;
     height: 90vh;
     width: 90vw;   
-    margin:0;
     z-index: 10;
     text-align: center;
-     display: none;   
+    display: none;    
    }
 
-   .header.activado {
+   .menu-nav.activado {
     display: flex;
    }
 
@@ -38,10 +37,34 @@
     padding: 0px;
   }
 
+    .br-1.animado{
+        transform: rotate(-45deg) translate(-10px, 10px);
+    }
+
+    .br-2.animado{
+        opacity: 0;
+    }
+
+    .br-3.animado{
+    transform: rotate(45deg) translate(-10px, -10px);
+    }
+
+    .btn-responsive {
+    display: block;   
+    position: fixed;
+    z-index: 14;
+    top: 0;
+    left: 0;
+    transition: 0.2s 0.1s;
+    }
+
+    .btn-responsive:hover {
+    transform: rotate(360deg);
+    }
 
   /* EL HOTEL */
   .hero {
-    width: 500px;
+    width: 100vw;
     height: 300px;
   }
 
@@ -136,3 +159,5 @@ li {
 
 /* responsive form en form.ccs */
 }
+
+
