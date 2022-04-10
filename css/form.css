@@ -23,6 +23,16 @@
   border-bottom: 2px solid #FEB990;
 }
 
+.input-contact--invalido {
+  border: 2px solid rgb(235, 31, 92);
+  margin-bottom: 4px;
+}
+
+ .input-mensaje-error {
+    color: rgb(235, 31, 92);
+    font-size: 40px;
+  }
+
 .enviar {
   padding: 10px 20px;
   font-size: 20px;
