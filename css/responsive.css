@@ -21,6 +21,7 @@
     /* HEADER */
    .menu-nav {
     flex-direction: column;
+    margin-top: 40px;
     height: 90vh;
     width: 90vw;   
     z-index: 10;
@@ -64,17 +65,15 @@
 
   /* EL HOTEL */
   .hero {
-    width: 100vw;
-    height: 300px;
+    width: 300vw;
   }
 
   .text-inicio {
-    top: 12%;  
-    bottom: 70% ;
+    top: 40%;  
   }
 
   .container {
-      display: block;
+      display: flex;
       padding-top: 30px;
   }
 
