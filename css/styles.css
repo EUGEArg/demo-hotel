@@ -202,4 +202,13 @@ footer {
     padding-bottom: 10px;
   }
 
+  @media(max-width:768px){
+    footer{
+  
+       position: absolute;
+       bottom: -44%;
+       left: 0;
+       right: 0;
+    }
+  }
 

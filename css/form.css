@@ -30,7 +30,9 @@
 
  .input-mensaje-error {
     color: rgb(235, 31, 92);
-    font-size: 40px;
+    font-size: 1.3rem;
+    padding-bottom: .6rem;
+    padding-left: .4rem;
   }
 
 .enviar {
